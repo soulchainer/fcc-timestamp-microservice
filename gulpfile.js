@@ -50,7 +50,7 @@ gulp.task('serve', function() {
   $.nodemon({
     script: 'app.js',
     ext: 'js html css',
-    env: { 'NODE_ENV': 'development' }
+    env: { 'NODE_ENV': 'development', 'PORT': '8080' }
   }).on('start', bs.reload);
 });
 

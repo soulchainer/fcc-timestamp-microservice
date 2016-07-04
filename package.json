@@ -4,7 +4,8 @@
   "description": "Timestamp microservice exercise, part of Free Code Camp «API Projects»",
   "main": "app.js",
   "scripts": {
-    "test": "mocha --watch --recursive test/test.js"
+    "test": "mocha --watch --recursive test/test.js",
+    "start": "node app.js"
   },
   "author": "Juan Riquelme González <juanriqgon@tutanota.com> (soulchainer)",
   "license": "ISC",
